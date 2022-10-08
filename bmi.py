@@ -15,4 +15,4 @@ if __name__ == "__main__":
     weight = float(input("weight:"))
     height = float(input("height:"))
     #result = calculate_bmi(weight,height)
-    print (f"BMI: {calculate_bmi(weight,height),}")
+    print (f"BMI: {calculate_bmi(weight,height)}")
