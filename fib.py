@@ -17,3 +17,17 @@ if __name__ == "__main__":
         print(
             fib(400)
         )
+
+###########################################################
+def fib2(n):
+    a,b  = 0, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b
+    return a
+
+if __name__ == "__main__":
+    #for val in fib(10):
+        #print(val)
+    fib_nums = list(fib2(10))
+    print(fib_nums)
