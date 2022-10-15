@@ -9,5 +9,3 @@ def bin2dec(z):
 
 z = "11111000"
 print(bin2dec(z), int(z, base=2))
-
-powers
